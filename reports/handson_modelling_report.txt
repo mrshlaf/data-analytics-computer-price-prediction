@@ -1,0 +1,29 @@
+================================================================================
+  DASAR ANALITIK DATA (DAD) - MODULE REPORT: REGRESSION MODELLING
+  Syllabus Coverage: Topics 09, 10, 12 (Modelling, Supervised Learning, Evaluation)
+================================================================================
+
+1. DATASET CHARACTERISTICS FOR MODELLING:
+   - Feature Selection Winner: 'Wrapper Method'
+   - Attributes Count: 15
+   - Train Sample Size: 15000
+   - Test Sample Size: 5000
+
+2. K-NEAREST NEIGHBORS (KNN) GRIDSEARCH TUNING:
+   - Best Parameters: {'n_neighbors': 9, 'weights': 'uniform'}
+
+3. COMPREHENSIVE PERFORMANCE EVALUATION METRICS:
+                             Model  Train R2   Test R2   Train MAE    Test MAE  Train RMSE   Test RMSE    R2_Gap
+0        K-Nearest Neighbors (KNN)  0.889213  0.863669  145.772489  164.925778  186.877560  209.201161  0.025545
+1  Multivariable Linear Regression  0.876625  0.876718  156.463617  159.319432  197.209361  198.937131  0.000093
+2   Support Vector Regressor (SVR)  0.870533  0.870384  157.776930  160.960633  202.019194  203.983583  0.000149
+3          Decision Tree Regressor  0.897010  0.862635  139.356239  165.195898  180.182170  209.992782  0.034375
+4          Random Forest Regressor  0.921516  0.878512  123.021980  157.136096  157.291141  197.484254  0.043004
+
+4. WINNING PREDICTIVE MODEL SELECTION:
+   - Model Name: 'Random Forest Regressor'
+   - Accuracy ($R^2$): 87.85%
+   - Mean Absolute Error (MAE): $157.14
+   - Root Mean Squared Error (RMSE): $197.48
+   - Overfitting Gap ($R^2$ Train - $R^2$ Test): 0.0430
+================================================================================

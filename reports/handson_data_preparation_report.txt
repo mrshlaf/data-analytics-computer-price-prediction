@@ -1,0 +1,48 @@
+================================================================================
+  DASAR ANALITIK DATA (DAD) - MODULE REPORT: DATA PREPARATION
+  Syllabus Coverage: Topics 05 - 06 (Outliers, Pivot Tables, Feature Binning & Encoding)
+================================================================================
+
+1. OUTLIERS AUDIT (IQR CLAMPING METHOD):
+   - Outliers Detected (Before winsorization):
+     * price: 976 points
+     * ram_gb: 60 points
+     * storage_gb: 14,811 points
+     * weight_kg: 1,031 points
+   - Outliers Post Clamping: 0 (All features clamped safely)
+
+2. FEATURE BINNING (Target variable price):
+   - Price category counts:
+price-binned
+Medium    62780
+Low       18676
+High      18544
+
+3. PIVOT TABLE SUMMARIES (Average Price):
+device_type      Desktop       Laptop
+brand                                
+ASUS         1733.824235  1921.935675
+Acer         1654.128624  1824.865248
+Apple        2221.840784  2426.185512
+Dell         1778.536148  1949.114000
+Gigabyte     1761.500123  1935.018870
+HP           1750.532942  1926.376630
+Lenovo       1762.924156  1932.221093
+MSI          1803.683909  1968.810672
+Razer        1958.753423  2147.431065
+Samsung      1806.145548  2006.205643
+
+4. PIVOT TABLE SUMMARIES (Units Frequencies):
+device_type  Desktop  Laptop
+brand                       
+ASUS            4066    6093
+Acer            3881    6044
+Apple           4785    7130
+Dell            5634    8371
+Gigabyte        2025    2875
+HP              5752    8362
+Lenovo          6485    9507
+MSI             3218    4673
+Razer           1192    1841
+Samsung         3118    4948
+================================================================================

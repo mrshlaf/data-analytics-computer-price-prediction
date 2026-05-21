@@ -1,0 +1,23 @@
+================================================================================
+  DASAR ANALITIK DATA (DAD) - MODULE REPORT: FEATURE SELECTION
+  Syllabus Coverage: Topic 07 (Data Prep III - Feature Selection Methods)
+================================================================================
+
+1. FILTER METHOD HIGHLIGHTS:
+   - Selected features count (Correlation >= 0.1): 22
+   - Multicollinearity dropped columns: ['cpu_cores', 'cpu_threads', 'cpu_boost_ghz', 'gpu_tier', 'charger_watts', 'psu_watts']
+   - Final independent variables count: 16
+
+2. WRAPPER METHOD (RFE RIDGE) HIGHLIGHTS:
+   - Top 15 RFE features kept: ['release_year', 'cpu_tier', 'cpu_cores', 'cpu_threads', 'gpu_tier', 'ram_gb', 'storage_gb', 'refresh_hz', 'psu_watts', 'price-binned-numeric', 'brand_Acer', 'brand_Razer', 'os_macOS', 'cpu_brand_Apple', 'device_type_Laptop']
+
+3. EMBEDDED METHOD (RANDOM FOREST IMPORTANCE) HIGHLIGHTS:
+   - Features exceeding threshold (>= 0.005): ['price-binned-numeric', 'ram_gb', 'weight_kg', 'release_year', 'os_macOS', 'refresh_hz', 'storage_gb', 'cpu_boost_ghz', 'bluetooth', 'display_size_in', 'gpu_tier', 'battery_wh', 'charger_watts', 'cpu_threads']
+
+4. BENCHMARK COMPARISONS & DYNAMIC WINNER:
+            Method  R2 Score        MAE  Feature Count
+0    Filter Method  0.848194  173.27788             16
+1   Wrapper Method  0.855633  168.73076             15
+2  Embedded Method  0.845962  174.43260             14
+   - Selected Dataset Winner: 'Wrapper Method' (Features: ['release_year', 'cpu_tier', 'cpu_cores', 'cpu_threads', 'gpu_tier', 'ram_gb', 'storage_gb', 'refresh_hz', 'psu_watts', 'price-binned-numeric', 'brand_Acer', 'brand_Razer', 'os_macOS', 'cpu_brand_Apple', 'device_type_Laptop'])
+================================================================================

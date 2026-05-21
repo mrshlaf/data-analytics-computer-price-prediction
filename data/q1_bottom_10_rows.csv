@@ -1,0 +1,11 @@
+,device_type,brand,model,release_year,os,form_factor,cpu_brand,cpu_model,cpu_tier,cpu_cores,cpu_threads,cpu_base_ghz,cpu_boost_ghz,gpu_brand,gpu_model,gpu_tier,vram_gb,ram_gb,storage_type,storage_gb,storage_drive_count,display_type,display_size_in,resolution,refresh_hz,battery_wh,charger_watts,psu_watts,wifi,bluetooth,weight_kg,warranty_months,price
+99990,Laptop,Lenovo,Lenovo Air 9FB,2025,Windows,Mainstream,Intel,Intel i7-11670,4,12,24,2.6,3.7,Intel,Arc B580,3,0,32,SSD,1024,1,LED,17.3,1920x1080,240,80,180,0,Wi-Fi 6,4.2,1.24,36,2024.99
+99991,Desktop,Lenovo,Lenovo Station A87,2024,Windows,Micro-ATX,AMD,AMD Ryzen 5 4642,3,12,24,2.8,3.6,NVIDIA,RTX 30 70,3,8,32,Hybrid,512,2,OLED,27.0,2560x1440,60,0,0,750,Wi-Fi 6,5.0,7.0,12,1595.99
+99992,Desktop,MSI,MSI Creator 8TU,2018,macOS,SFF,Intel,Intel i5-13152,3,8,16,2.8,3.8,NVIDIA,RTX 40 70,3,8,32,SSD,512,2,LED,27.0,3840x2160,240,0,0,650,Wi-Fi 6E,5.0,4.0,24,2309.99
+99993,Laptop,Acer,Acer Slim WQ4,2022,Windows,Gaming,AMD,AMD Ryzen 5 5863,3,8,16,2.4,3.2,AMD,RX 7000 70,3,8,32,NVMe,512,1,Mini-LED,15.6,1920x1080,60,80,90,0,Wi-Fi 6E,5.0,1.7,36,1658.99
+99994,Desktop,Lenovo,Lenovo Creator 2G4,2023,Linux,Mini-ITX,Intel,Intel i5-10539,3,12,24,2.8,3.8,NVIDIA,RTX 30 60,2,6,16,Hybrid,1024,3,OLED,24.0,3440x1440,120,0,0,850,Wi-Fi 5,4.2,7.0,24,1953.99
+99995,Laptop,ASUS,ASUS Pro ZWL,2023,Windows,Mainstream,Intel,Intel i7-13721,4,12,24,2.6,3.7,AMD,RX 7000 70,3,8,32,HDD,2048,1,LED,14.0,1920x1080,144,90,180,0,Wi-Fi 6,5.1,1.87,24,1712.99
+99996,Laptop,Lenovo,Lenovo Stealth 014,2018,Windows,Ultrabook,AMD,AMD Ryzen 5 5117,2,8,16,2.2,3.2,AMD,RX 6000 50,1,4,8,HDD,1024,1,LED,14.0,2560x1600,90,50,65,0,Wi-Fi 6,5.1,1.37,12,1258.99
+99997,Laptop,ASUS,ASUS Zen LKD,2020,Windows,Mainstream,Intel,Intel i5-12677,2,6,10,2.2,3.2,NVIDIA,RTX 20 60,2,6,16,NVMe,1024,1,OLED,14.0,2560x1600,120,99,180,0,Wi-Fi 6,4.2,1.17,12,1686.99
+99998,Laptop,ASUS,ASUS Blade DH6,2020,Windows,Mainstream,AMD,AMD Ryzen 7 4590,4,12,24,2.6,3.5,NVIDIA,RTX 30 70,3,8,32,NVMe,256,1,OLED,15.6,2560x1600,120,60,90,0,Wi-Fi 6,5.3,1.7,24,2164.99
+99999,Desktop,Acer,Acer Think L7R,2023,Windows,SFF,Intel,Intel i9-14345,6,26,52,3.4,4.2,Intel,Arc A770 Limited,6,0,128,Hybrid,2048,2,IPS,27.0,1920x1080,144,0,0,750,Wi-Fi 6E,5.1,7.0,48,3005.99

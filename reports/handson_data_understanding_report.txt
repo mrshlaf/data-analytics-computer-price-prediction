@@ -1,0 +1,34 @@
+================================================================================
+  DASAR ANALITIK DATA (DAD) - MODULE REPORT: DATA UNDERSTANDING
+  Syllabus Coverage: Topics 01 - 04 (Business & Data Understanding, EDA, Summary Stats)
+================================================================================
+
+1. BUSINESSScope DEFINITIONS:
+   - Problem Statement: Manual computer pricing leads to inconsistent quotes and margin leaks.
+   - Analytical Method: Supervised Machine Learning - Regression (Target Variable: 'price')
+   - Target Objective: R-squared Score >= 85% with minimized Mean Absolute Error (MAE).
+
+2. DATASET SUMMARY METRICS:
+   - File Name: computer_prices_all.csv
+   - Rows: 100,000
+   - Columns: 33
+   - Missing Elements Count: 0
+
+3. CENTRAL TENDENCY & DISPERSION METRICS:
+                  price       ram_gb     storage_gb  weight_kg
+Mean        1928.764220    39.706400     903.936000   4.289699
+Median      1863.990000    32.000000     512.000000   2.000000
+Mode        1561.990000    32.000000     512.000000   1.500000
+Variance  336971.761701  1017.781257  599453.235236  14.551390
+Std Dev      580.492689    31.902684     774.243654   3.814628
+Min          372.990000     8.000000     256.000000   0.920000
+Max        10984.990000   144.000000    4096.000000  16.000000
+Range      10612.000000   136.000000    3840.000000  15.080000
+IQR          784.000000    48.000000     512.000000   5.500000
+Skewness       0.986629     1.049262       2.304002   1.180884
+Kurtosis       4.891141     0.195800       6.271781   0.362429
+
+4. SKEWNESS & KURTOSIS (Target Price):
+   - Skewness: 0.9866 (Positive skew / Right-tailed)
+   - Kurtosis: 4.8911 (Leptokurtic curve peak)
+================================================================================
