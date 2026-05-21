@@ -15,6 +15,10 @@ Proyek akhir mata kuliah **Dasar Analitik Data (DAD)** yang membangun sistem pre
 
 Klik gambar di atas atau buka langsung: https://youtu.be/XeDfnJrAhvM?si=dbXC1E7flBX991nE
 
+## Laporan PDF
+
+Laporan lengkap proyek akhir tersedia di [laporan-proyek-akhir.pdf](laporan-proyek-akhir.pdf).
+
 ---
 
 ## Deskripsi Proyek
@@ -111,11 +115,11 @@ Lima algoritma regresi dilatih dan dibandingkan:
 
 | Model | Train R2 | Test R2 | Test MAE | Test RMSE |
 |---|---|---|---|---|
-| K-Nearest Neighbors (KNN) | -- | -- | -- | -- |
-| Multivariable Linear Regression | -- | -- | -- | -- |
-| Support Vector Regressor (LinearSVR) | -- | -- | -- | -- |
-| Decision Tree Regressor | -- | -- | -- | -- |
-| **Random Forest Regressor** | -- | **0.8785** | **$157.13** | -- |
+| K-Nearest Neighbors (KNN) | 0.8892 | 0.8637 | $164.93 | $209.20 |
+| Multivariable Linear Regression | 0.8766 | 0.8767 | $159.32 | $198.94 |
+| Support Vector Regressor (LinearSVR) | 0.8705 | 0.8704 | $160.96 | $203.98 |
+| Decision Tree Regressor | 0.8970 | 0.8626 | $165.20 | $210.00 |
+| **Random Forest Regressor** | **0.9215** | **0.8785** | **$157.14** | **$197.48** |
 
 Metrik yang digunakan: R-squared (R2), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE).
 
